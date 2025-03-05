@@ -36,7 +36,7 @@ import { FBXLoader } from 'three/addons/loaders/FBXLoader.js';
 
     const hemiLight = new THREE.HemisphereLight(0xffffff, 0xffffff,3);
     hemiLight.color.setHSL(10,10,10);
-    hemiLight.position.set(0,0,0);
+    hemiLight.position.set(0,-2,0);
     scene.add(hemiLight);
 
     //comienzo de fbx
