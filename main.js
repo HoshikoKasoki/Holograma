@@ -45,7 +45,7 @@ import { FBXLoader } from 'three/addons/loaders/FBXLoader.js';
 const objgirar = [];
 
 const fbxLoader = new FBXLoader()
-fbxLoader.load('llave.fbx', (object) => {
+fbxLoader.load('llave.FBX', (object) => {
     object.scale.set(0.5, 0.5, 0.5); // Escalar si es necesario
     object.position.set(0,0,0);
     scene.add(object);
